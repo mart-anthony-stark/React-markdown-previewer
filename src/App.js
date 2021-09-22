@@ -13,7 +13,10 @@ export default function App() {
         <Toolbar title="Editor" />
         <Editor markDown={markDown} setMarkdown={setMarkdown} />
       </div>
-      <Preview markdown={markDown} />
+      <div className="editor-wrapper">
+        <Toolbar title="Preview" />
+        <Preview markdown={markDown} />
+      </div>
     </div>
   );
 }
