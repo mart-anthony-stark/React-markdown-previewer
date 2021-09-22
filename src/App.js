@@ -9,35 +9,32 @@ export default function App() {
   useEffect(() => {
     setMarkdown(placeholder);
   }, []);
-  const placeholder = `# Welcome to my React Markdown Previewer!
-
-## This is a sub-heading...
-### And here's some other cool stuff:
-
-Heres some code, \`<div></div>\`, between 2 backticks.
-
-
-
-You can also make text **bold**... whoa!
-Or _italic_.
-Or... wait for it... **_both!_**
-And feel free to go crazy ~~crossing stuff out~~.
-
-There's also [links](https://www.freecodecamp.org), and
-> Block Quotes!
-
-And if you want to get really crazy, even tables:
-
-Wild Header | Crazy Header | Another Header?
------------- | ------------- | -------------
-Your content can | be here, and it | can be here....
-And here. | Okay. | I think we get it.
-
-- And of course there are lists.
-  - Some are bulleted.
-     - With different indentation levels.
-        - That look like this.
-<pre><code>alert('asd)</code></pre>
+  const placeholder = `### Welcome to my React Markdown Previewer
+  <br>
+  <p align="center">
+  <img src="https://github.com/mart-anthony-stark/mart-anthony-stark/blob/main/github%20header.png?raw=true" width="70%" height="200px" align="center"/>
+  
+   <h3 align="center">Hi there👋</h3> 
+   </p>
+   <p align="center">My name is Mart Anthony Salazar </p>
+              <p></p>
+              <p align="center">I am a second year student of Bachelor of Science in Information Technology.</p>
+              <br>
+  <div align="center">
+   <img src="https://img.icons8.com/color/80/000000/vue-js.png"/>
+   <img src="https://img.icons8.com/office/80/000000/react.png"/>
+   <img src="https://img.icons8.com/nolan/80/react-native.png"/>
+   <img src="https://img.icons8.com/color/80/000000/mongodb.png"/>
+   <img src="https://img.icons8.com/windows/80/000000/node-js.png"/>
+   <img src="https://img.icons8.com/color/80/000000/java-coffee-cup-logo.png"/>
+  <div>
+   
+   
+  <p align="center">
+  <img align="center" height="170px" src="https://github-readme-stats.vercel.app/api?username=mart-anthony-stark&hide=contribs,prs,stars?count_private=true&show_icons=true&theme=tokyonight" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mart-anthony-stark&theme=tokyonight&layout=compact" width="400px" />
+  </p>
+  
 
 `;
 
