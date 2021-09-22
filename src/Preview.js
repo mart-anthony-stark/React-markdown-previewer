@@ -1,5 +1,6 @@
 import React from 'react';
 import marked from 'marked';
+import { Prism } from 'prism';
 
 export default function Preview({ markdown }) {
   // ALLOWS LINE BREAKS WITH RETURN BUTTON
@@ -16,6 +17,7 @@ export default function Preview({ markdown }) {
 
   return (
     <div
+      id="preview"
       dangerouslySetInnerHTML={{ __html: marked(markdown, { renderer }) }}
     ></div>
   );
