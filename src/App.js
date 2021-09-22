@@ -42,12 +42,12 @@ And here. | Okay. | I think we get it.
 `;
 
   return (
-    <div>
+    <div className="app">
       <div className="editor-wrapper">
         <Toolbar title="Editor" />
         <Editor markDown={markDown} setMarkdown={setMarkdown} />
       </div>
-      <div className="editor-wrapper">
+      <div className="preview-wrapper">
         <Toolbar title="Preview" />
         <Preview markdown={markDown} />
       </div>

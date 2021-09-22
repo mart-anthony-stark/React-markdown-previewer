@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ({ title }) {
   return (
-    <div>
+    <div className="toolbar">
       <span className="title">{title}</span>
     </div>
   );
