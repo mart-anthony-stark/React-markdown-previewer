@@ -43,11 +43,11 @@ And here. | Okay. | I think we get it.
 
   return (
     <div className="app">
-      <div className="editor-wrapper">
+      <div className="editor-wrapper wrapper">
         <Toolbar title="Editor" />
         <Editor markDown={markDown} setMarkdown={setMarkdown} />
       </div>
-      <div className="preview-wrapper">
+      <div className="preview-wrapper wrapper">
         <Toolbar title="Preview" />
         <Preview markdown={markDown} />
       </div>

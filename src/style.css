@@ -50,6 +50,12 @@ textarea::-webkit-scrollbar-thumb {
   justify-content: space-between;
   align-items: center;
 }
+.toolbar .maximize {
+  cursor: pointer;
+}
+.maximize:hover {
+  color: rgb(8, 38, 65);
+}
 .preview-wrapper {
   background: rgb(135, 90, 145);
   height: 100%;
