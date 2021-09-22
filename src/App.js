@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import Editor from './Editor';
+import Preview from './Preview';
 import './style.css';
 
 export default function App() {
-  const [markDown, setMarkdown] = useState('asd');
+  const [markDown, setMarkdown] = useState('');
 
   return (
     <div>
       <Editor markDown={markDown} setMarkdown={setMarkdown} />
-      {markDown}
+      <Preview markdown={markDown} />
     </div>
   );
 }
