@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Toolbar from './Toolbar';
 import Editor from './Editor';
 import Preview from './Preview';
 import './style.css';
@@ -8,7 +9,10 @@ export default function App() {
 
   return (
     <div>
-      <Editor markDown={markDown} setMarkdown={setMarkdown} />
+      <div className="editor-wrapper">
+        <Toolbar title="Editor" />
+        <Editor markDown={markDown} setMarkdown={setMarkdown} />
+      </div>
       <Preview markdown={markDown} />
     </div>
   );
