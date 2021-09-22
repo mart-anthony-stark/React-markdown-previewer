@@ -46,6 +46,9 @@ textarea::-webkit-scrollbar-thumb {
   font-weight: 800;
   font-size: 1.5em;
   border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .preview-wrapper {
   background: rgb(135, 90, 145);
